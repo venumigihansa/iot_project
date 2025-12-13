@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import 'screens/account_screen.dart';
@@ -6,7 +8,8 @@ import 'screens/settings_screen.dart';
 import 'services/notification_service.dart';
 import 'theme/app_theme.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const RiverLevelsApp());
 }
 
