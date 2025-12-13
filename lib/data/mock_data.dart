@@ -1,0 +1,33 @@
+import '../models/station.dart';
+
+final List<Station> stations = [
+  const Station(
+    id: 'uom',
+    name: 'UoM Station',
+    isTank: true,
+    latitude: 6.7951276,
+    longitude: 79.900867,
+  ),
+  const Station(id: '1122', name: 'Cellan'),
+  const Station(id: '1125', name: 'Penuwch'),
+  const Station(id: '1127', name: 'Rhos Ymryson'),
+  const Station(id: '1128', name: 'Abergorlech'),
+  const Station(id: '1129', name: 'Caio'),
+  const Station(id: '1130', name: 'Cynghordy'),
+  const Station(id: '1132', name: 'Myddfai'),
+  const Station(id: '1133', name: 'Nant Y Maen'),
+  const Station(id: '1136', name: 'Ystradffin No1'),
+  const Station(id: '4129', name: 'Talsarn'),
+  const Station(id: '4194', name: 'Craig Clungwyn'),
+  const Station(id: '4195', name: 'Ddol Las'),
+  const Station(id: '4196', name: 'Dolau Hirion'),
+  const Station(id: '4198', name: 'Felin Y Cwm'),
+  const Station(id: '4201', name: 'Llandovery'),
+  const Station(id: '4202', name: 'Llangadog'),
+  const Station(id: '4203', name: 'Llanwrda'),
+  const Station(id: '4204', name: 'Llyn Brianne Reservoir'),
+  const Station(id: '4206', name: 'Pont Felindre'),
+  const Station(id: '4209', name: 'Ystradffin'),
+  const Station(id: '4213', name: 'Pont Llanio'),
+  const Station(id: '4216', name: 'Tregaron'),
+];
